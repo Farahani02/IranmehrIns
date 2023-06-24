@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "farsiVazir";
+  src: url(../fonts/Vazir.ttf);
+}
+@font-face {
+  font-family: "farsiDigits";
+  src: url(../fonts/vazir-font-v29.1.0/Farsi-Digits-Without-Latin/Vazir-Regular-FD-WOL.ttf);
+}
+@font-face {
+  font-family: "Iranmehr";
+  src: url(../fonts/fr13631649_noora_font_gfiles.ir.ttf);
+}
+@font-face {
+  font-family: "farsiSans";
+  src: url(../fonts/IranianSans.ttf);
+}
+@font-face {
+  font-family: "farsiBold";
+  src: url(../fonts/vazir-font-v29.1.0/Vazir-Bold.ttf);
+}
+.emptySpace {
+  background-color: #efefef;
+  width: 100%;
+  top: 0;
+  height: 100px;
+}
+
+body {
+  font-family: farsiVazir, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.navhovering:hover {
+  border-bottom: 5px solid #007ddb;
+  padding-bottom: 8px;
+}
+
+.sub-menu-image {
+  max-width: 40px;
+}
+
+.to-panel {
+  background-color: #070592;
+  color: #efefef;
+}
+
+.to-panel:hover {
+  background-color: #2e91dd;
+}
+
+.title-gradient0 {
+  margin-top: 0px;
+  font-size: 3.5rem;
+  background: linear-gradient(to right, #2f73aa, #16246e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-gradient {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+  background: linear-gradient(to right, #06c54f, #014207, #4a366d, #033d6d, #055f6b, #43a047, #190ccc, #022185, #020720);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(54, 175, 23);
+  color: #fff;
+}
+
+.txt-color {
+  color: #16246e;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "farsiVazir";
+  src: url(../fonts/Vazir.ttf);
+}
+@font-face {
+  font-family: "farsiDigits";
+  src: url(../fonts/vazir-font-v29.1.0/Farsi-Digits-Without-Latin/Vazir-Regular-FD-WOL.ttf);
+}
+@font-face {
+  font-family: "Iranmehr";
+  src: url(../fonts/fr13631649_noora_font_gfiles.ir.ttf);
+}
+@font-face {
+  font-family: "farsiSans";
+  src: url(../fonts/IranianSans.ttf);
+}
+@font-face {
+  font-family: "farsiBold";
+  src: url(../fonts/vazir-font-v29.1.0/Vazir-Bold.ttf);
+}/*# sourceMappingURL=mixins.css.map */
