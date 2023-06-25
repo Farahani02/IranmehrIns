@@ -83,12 +83,25 @@ body {
 }
 
 .dropdown-item:hover {
-  background-color: rgb(54, 175, 23);
+  background-color: rgba(53, 175, 23, 0.719);
+  border-radius: 50px;
   color: #fff;
+}
+
+.show-left {
+  position: absolute;
+  inset: -4px 274px auto auto;
+  margin: 0px;
+  transform: translate(103px, 0px);
+}
+
+.btn-search {
+  width: 2px;
+  height: 20px;
 }
 
 .txt-color {
   color: #16246e;
-}
+} 
 
 /*# sourceMappingURL=style.css.map */
