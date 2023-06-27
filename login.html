@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="shortcut icon" href="./bf.jpg" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="./assets/img/100x100_092010iranmehrLogo.webp" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -20,7 +20,7 @@
     <script src="./assets/script.js" defer></script>
 
 
-    <title>خوش آمدید</title>
+    <title>ورود به سایت</title>
 </head>
 
 <body>
@@ -48,8 +48,8 @@
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav gap-4 mx-4 me-auto mb-2 fs-6 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <span class="text-dark border-5 border-bottom border-primary py-2">
+                            <a class="nav-link active" aria-current="page" href="./index.html">
+                                <span class="text-dark border-5 navhovering py-2">
                                     خانه
                                 </span></a>
                         </li>
@@ -187,14 +187,49 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="d-flex justify-content-lg-end" role="search">
-                        <button type="button" class="btn to-panel shadow-lg" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">پنل زبان آموزان</button>
-                    </div>
                 </div>
             </div>
         </nav>
     </div>
+
+    <div class="my-4">
+        <section class="container m-2 p-3">
+            <div class="row">
+                <div class="col-12 col-lg-6 flex-row-reverse flex-column">
+                    <img src="./assets/img/Company165613483.jpg" alt="IRANMEHR" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-6">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputName1" class="form-label">نام کاربری</label>
+                            <input type="text" class="form-control" title="اجباری" required
+                                placeholder="برای مثال: سارا" id="InputName1" aria-describedby="nameHelp">
+                            <div id="nameHelp" class="form-text">اطلاعات شما محفوظ خواهند ماند.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputPassword1" class="form-label">رمز ورود</label>
+                            <input type="password" class="form-control" required title="اجباری" id="InputPassword1">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="modal-footer justify-content-end gap-3">
+                <button type="submit" id="btn" class="btn to-panel d-inline-block shadow-lg">ورود
+                </button>
+                <button type="submit" id="greeting" class="btn .to-hello  btn-success d-inline-block shadow-lg">خوش
+                    آمدگویی</button>
+                <button type="submit" id="loguot" class="btn btn-warning to-exit d-inline-block shadow-lg">خروج</button>
+
+                <!-- data-bs-dismiss="modal" -->
+            </div>
+
+        </section>
+
+    </div>
+
 </body>
 
 </html>

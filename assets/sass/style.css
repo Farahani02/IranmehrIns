@@ -117,4 +117,22 @@ body {
 .full-page {
   background-size: cover;
   background-color: rgba(226, 236, 245, 0.8901960784);
+}
+
+.to-hello {
+  background-color: #36b841;
+  color: #efefef;
+}
+
+.to-hello:hover {
+  background-color: #c1ee97;
+}
+
+.to-exit {
+  background-color: #b89936;
+  color: #efefef;
+}
+
+.to-exit:hover {
+  background-color: #c1ee97;
 }/*# sourceMappingURL=style.css.map */
