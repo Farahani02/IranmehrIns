@@ -88,6 +88,11 @@ body {
   color: #fff;
 }
 
+.dd-search {
+  background-color: #16246e;
+  color: #fff;
+}
+
 .show-left {
   position: absolute;
   inset: -4px 274px auto auto;
@@ -102,6 +107,16 @@ body {
 
 .txt-color {
   color: #16246e;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.full-page {
+  background-size: cover;
+  background-color: rgba(226, 236, 245, 0.8901960784);
 } 
 
 /*# sourceMappingURL=style.css.map */
