@@ -109,15 +109,16 @@ body {
 }
 
 
-.dropdown-item:hover{
+.dropdown-item:hover {
   // background-color: rgb(248, 186, 161);
   background-color: rgba(53, 175, 23, 0.719);
   border-radius: 50px;
   color: #fff;
 }
-.dd-search{
+
+.dd-search {
   background-color: #16246e;
-  color: #fff;  
+  color: #fff;
 }
 
 .show-left {
@@ -127,7 +128,7 @@ body {
   transform: translate(103px, 0px);
 }
 
-.btn-search{
+.btn-search {
   width: 2px;
   height: 20px;
 }
@@ -143,31 +144,17 @@ body {
   height: 300px;
 }
 
-.full-page{
+.full-page {
   // height: 50vh;
   background-size: cover;
   background-color: #e2ecf5e3;
 }
 
-
-.to-hello {
-  background-color: #36b841;
+.exit {
+  background-color: #19848b;
   color: #efefef;
 }
 
-.to-hello:hover {
-  background-color: #c1ee97;
+.exit:hover {
+  background-color: #e9f5dd;
 }
-
-
-
-.to-exit {
-  background-color: #b89936;
-  color: #efefef;
-}
-
-.to-exit:hover {
-  background-color: #c1ee97;
-}
-
-
