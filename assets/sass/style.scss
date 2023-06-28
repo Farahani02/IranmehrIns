@@ -61,6 +61,8 @@ body {
 
 
 
+
+
 // .btn-primary,
 // .btn-primary:visited,
 // .btn-primary:focus{
@@ -161,25 +163,27 @@ body {
   background-color: rgba(117, 156, 148, 0.719);
 }
 
-.img-style{
+.img-style {
   width: 127px;
   height: 90px;
 
 }
 
-.cards:hover{
-// color: #0ccc0c;
-color: #aa0b00;
-opacity: 80%;
-background-color: #e6ddddcc;
-border: 1px;
-border-radius: 30px;
+.cards:hover {
+  // color: #0ccc0c;
+  color: #aa0b00;
+  opacity: 80%;
+  background-color: #e6ddddcc;
+  border: 1px;
+  border-radius: 30px;
 
 }
 
-.card{
-  border:#fff;
+.card {
+  border: #fff;
+
 }
+
 
 
 .swiper {
