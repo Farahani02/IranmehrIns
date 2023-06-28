@@ -16,7 +16,8 @@ $empty-height: 100px;
 
 
 .emptySpace {
-  background-color: $empty-color;
+  // background-color: $empty-color;
+  background-color: #fff;
   width: 100%;
   top: 0;
   height: $empty-height;
@@ -47,7 +48,8 @@ body {
   // @include sub-menu-st;
 }
 
-.to-panel {
+.to-panel,
+.exit {
   background-color: #070592;
   color: #efefef;
 }
@@ -150,11 +152,62 @@ body {
   background-color: #e2ecf5e3;
 }
 
-.exit {
-  background-color: #19848b;
-  color: #efefef;
-}
+// .exit {
+//   background-color: #19848b;
+//   color: #efefef;
+// }
 
 .exit:hover {
-  background-color: #e9f5dd;
+  background-color: rgba(117, 156, 148, 0.719);
+}
+
+.img-style{
+  width: 127px;
+  height: 90px;
+
+}
+
+.cards:hover{
+// color: #0ccc0c;
+color: #aa0b00;
+opacity: 80%;
+background-color: #e6ddddcc;
+border: 1px;
+border-radius: 30px;
+
+}
+
+.card{
+  border:#fff;
+}
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -17,11 +17,23 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
+
     <script src="./assets/script.js" defer></script>
+
 
     <!-- swiper links -->
     <link rel="stylesheet" href="./swiper/unpkg.com_swiper@8.4.7_swiper-bundle.min.css">
-    <script src="./swiper/unpkg.com_swiper@8.4.7_swiper-bundle.min.js" defer></script>
+    <script src="./swiper/unpkg.com_swiper@8.4.7_swiper-bundle.min.js"></script>
+
+
+
+
+    <!-- Demo styles -->
+    <style>
+
+
+    </style> -->
+
 
 
     <title>آموزشگاه زبان ایرانمهر</title>
@@ -271,35 +283,227 @@
         </section>
     </div>
 
-    <div class="py-4 overflow-hidden mt-xl-3">
+    <div class="py-4 bg-body mt-xl-3">
         <section class="container">
-            <h4 class="txt-color fw-bold text-center">
+            <h4 class="txt-color mt-3 fw-bold text-center">
                 زبان مورد نظر خود را انتخاب کنید
             </h4>
 
+            <div class="my-5 shadow">
+                <div class="swiper w-100">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="card h-100 border-white" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/IELTS-COURSE.webp" class="card-img-top"
+                                        alt="دوره آیلتس">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره آیلتس
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card h-100" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/آلمانی.webp" class="card-img-top" alt="دوره آلمانی">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره آلمانی
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card h-100" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/اسپانیایی.webp" class="card-img-top"
+                                        alt="دوره اسپانیایی">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره اسپانیایی
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    ...
+
+                        <div class="swiper-slide">
+                            <div class="card h-100" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/ترکی-استانبولی.webp" class="card-img-top"
+                                        alt="دوره ترکی استانبولی">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره ترکی استانبولی
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card h-100" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/GB-3x.png" class="card-img-top" alt="دوره انگلیسی">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره انگلیسی
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card h-100" style="width: 15rem;">
+                                <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <img src="./assets/img/icons/زبان-فرانسه.webp" class="card-img-top"
+                                        alt="دوره فرانسه">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold my-2 text-center">
+                                            دوره فرانسه
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ... -->
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
             </div>
 
-
         </section>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            // direction: 'vertical',
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+
+                type: "progressbar",
+
+            },
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+
+
+
+            slidesPerView: 4,
+            spaceBetween: 20,
+            // effect: "cube",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true,
+            },
+            speed: 600,
+            parallax: true,
+        });
+
+    </script>
+
+    <div class="container my-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores voluptatibus fuga provident obcaecati
+        possimus veritatis, dicta ad magnam sapiente mollitia debitis consectetur. Vero ipsam dignissimos, ex maxime
+        earum quos!
     </div>
 
 
@@ -329,7 +533,7 @@
                 <div class="modal-footer justify-content-start full-page">
                     <a type="submit" href="./login.html" class="btn px-5 to-panel shadow-lg">ورود
                     </a>
-                    <button type="submit" class="btn px-3  shadow-lg" data-bs-dismiss="modal">بیخیال
+                    <button type="submit" class="btn px-3 exit shadow-lg" data-bs-dismiss="modal">بیخیال
                         شدن</button>
                 </div>
             </div>

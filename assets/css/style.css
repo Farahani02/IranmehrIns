@@ -27,7 +27,7 @@
   src: url(../fonts/vazir-font-v29.1.0/Vazir-Bold.ttf);
 }
 .emptySpace {
-  background-color: #efefef;
+  background-color: #fff;
   width: 100%;
   top: 0;
   height: 100px;
@@ -49,7 +49,8 @@ body {
   max-width: 40px;
 }
 
-.to-panel {
+.to-panel,
+.exit {
   background-color: #070592;
   color: #efefef;
 }
@@ -119,22 +120,52 @@ body {
   background-color: rgba(226, 236, 245, 0.8901960784);
 }
 
-.to-hello {
-  background-color: #36b841;
-  color: #efefef;
+.exit:hover {
+  background-color: rgba(117, 156, 148, 0.719);
 }
 
-.to-hello:hover {
-  background-color: #c1ee97;
+.img-style {
+  width: 127px;
+  height: 90px;
 }
 
-.to-exit {
-  background-color: #b89936;
-  color: #efefef;
+.cards:hover {
+  color: #aa0b00;
+  opacity: 80%;
+  background-color: rgba(230, 221, 221, 0.8);
+  border: 1px;
+  border-radius: 30px;
 }
 
-.to-exit:hover {
-  background-color: #c1ee97;
-} 
+.card {
+  border: #fff;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
