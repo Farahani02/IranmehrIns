@@ -13,7 +13,7 @@ const USERS = [
     }
 ];
 
-const paragragh = document.createElement('p');
+// const paragragh = document.createElement('p');
 
 const greeting = document.getElementById('greeting');
 const logout = document.getElementById('logout');
@@ -23,6 +23,9 @@ const pass = document.getElementById('InputPassword1');
 
 const btn = document.getElementById('btn');
 
+const paragragh = document.getElementById('comment');
+
+
 
 
 
@@ -30,15 +33,16 @@ btn.addEventListener('click', (e) => {
 
     e.preventDefault();
     paragragh.innerText = '';
-    document.body.appendChild(paragragh);
+    // document.body.appendChild(paragragh);
 
     let i = 0;
 
     if (JSON.parse(window.localStorage.getItem('userName')) !== null) {
         const userName = JSON.parse(window.localStorage.getItem('userName'));
 
+        // document.getElementById('paragragh').style.display = 'lg-block';
         paragragh.innerText = `${userName} جان، خوش آمدید`;
-        document.body.appendChild(paragragh);
+        // document.body.appendChild(paragragh);
     }
     else {
         USERS.map(el => {
@@ -53,11 +57,11 @@ btn.addEventListener('click', (e) => {
                     const userName = JSON.parse(window.localStorage.getItem('userName'));
 
                     paragragh.innerText = `${userName} جان، خوش آمدید`;
-                    document.body.appendChild(paragragh);
+                    // document.body.appendChild(paragragh);
 
                 } else {
                     paragragh.innerText = ` شما هنوز وارد نشده اید`;
-                    document.body.appendChild(paragragh);
+                    // document.body.appendChild(paragragh);
                 }
 
             }
@@ -71,7 +75,7 @@ btn.addEventListener('click', (e) => {
 
     if (i === 3) {
         paragragh.innerText = `ابتدا اطلاعات خود را به شکل صحیح وارد نمایید`;
-        document.body.appendChild(paragragh);
+        // document.body.appendChild(paragragh);
     }
 });
 
@@ -84,15 +88,18 @@ logout.addEventListener('click', () => {
         window.localStorage.removeItem('userName');
         paragragh.innerText = '';
         paragragh.innerText = `شما با موفقیت خارج شدید`;
-        document.body.appendChild(paragragh);
+        // document.body.appendChild(paragragh);
         user.value = '';
         pass.value = '';
     } else {
         paragragh.innerText = `شما هنوز وارد نشدید`;
-        document.body.appendChild(paragragh);
+        // document.body.appendChild(paragragh);
     }
 
 });
+
+
+
 
 
 

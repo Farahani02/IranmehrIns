@@ -40,11 +40,17 @@
 </head>
 
 <body>
+
+
+
+
+
     <aside class="emptySpace d-flex justify-content-center">
         <div class="emptySpace">
         </div>
     </aside>
 
+    <!-- navbar -->
     <div class="sticky-top px-3 shadow-lg bg-white" style="--bs-bg-opacity:0.95;">
         <nav class=" container-fluid navbar navbar-expand-lg">
             <div class="container-fluid align-items-center justify-content-between">
@@ -221,15 +227,16 @@
         </nav>
     </div>
 
+    <!-- header -->
     <div class="py-5">
-        <section class="container-fluid">
+        <header class="container-fluid">
             <div class="row flex-row-reverse flex-column">
                 <div class="col-md-6 mt-5 overflow-visible position-relative">
                     <img class="img-fluid" src="./assets/img/hero/home-hero.webp" alt="موسسه ی زبان ایرانمهر">
                 </div>
 
 
-                <div class="col-md-6 cover-full ">
+                <div class="col-md-6 cover-full">
                     <h1
                         class="text-primary mx-2 py-2 rounded-5 shadow-sm my-5 px-4 bg-gradient bg-light w-50 text-start fs-5">
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
@@ -244,11 +251,11 @@
                         </span>
                         <span class="title-gradient">مجرب و با تجربه</span>
                     </h2>
-                    <strong class="d-block text-center mt-5 mb-0">آینده از آن توست!</strong>
+                    <strong class="d-block text-start text-lg-center mt-5 mb-0">آینده از آن توست!</strong>
 
 
-                    <div class="container  w-75 position-absolute    z-50 my-3 my-5 my-md-0">
-                        <p class="txt-color py-1 mb-1 my-1 mx-4 fs-6 lg:text-start fw-bold">دوره مورد نیاز خود را
+                    <div class="container  w-75  pt-lg-4 position-absolute d-none d-lg-block my-3 my-md-0">
+                        <p class="txt-color py-1 mb-1 my-1 mx-4  z-50 fs-6 fw-bold">دوره مورد نیاز خود را
                             پیدا
                             کنید:</p>
                         <form class="bg-body align-content-center shadow-lg mx-1 mt-1 rounded-5 fs-6 px-3 pt-3"
@@ -257,6 +264,9 @@
                                 <div class="col-sm-6 col-md-3">
                                     <select class="form-select form-select-lg mb-3 overflow-scroll rounded-5"
                                         aria-label=".form-select-lg example">
+
+
+
                                         <option class="dd-search" selected>انگلیسی</option>
                                         <option class="dd-search" value="1">آلمانی</option>
                                         <option class="dd-search" value="2">فرانسه</option>
@@ -267,8 +277,7 @@
 
                                 </div>
                                 <div class="col-sm-6 col-md-3">
-                                    <select
-                                        class="rounded-pill rounded form-select form-select-lg mb-3 overflow-scroll rounded-5"
+                                    <select class="form-select form-select-lg mb-3 overflow-scroll rounded-5"
                                         aria-label=".form-select-lg example">
                                         <option class=" dd-search" selected>همه سنین</option>
                                         <option class="dd-search" value="1">کودکان</option>
@@ -302,12 +311,32 @@
 
                 </div>
             </div>
-        </section>
+        </header>
+    </div>
+
+
+
+
+
+
+    <!-- going to the top -->
+
+    <div class="shadow-lg">
+
+        <a href="#"
+            class="ttop shadow-lg text-dark d-flex bg-warning rounded-circle justify-content-center align-items-center position-fixed fixed-bottom z-25  "
+            style="width: 54px; height: 54px; right: 10px; bottom: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-up "
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+            </svg>
+        </a>
     </div>
 
 
     <!-- Swiper -->
-    <div class="py-4  my-5   bg-body mt-xl-3">
+    <div class="  py-5   bg-body mt-xl-3">
         <section class="container my-5 ">
             <div class="row">
                 <div class="col-12">
@@ -324,11 +353,12 @@
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
                                 <div class="swiper-slide">
-                                    <div class="card h-100 border-white" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color  justify-content-center align-items-center">
                                             <img src="./assets/img/icons/IELTS-COURSE.webp" class="card-img-top"
                                                 alt="دوره آیلتس">
-                                            <div class="card-body">
+                                            <div class="card-body ">
                                                 <p class="card-text fw-bold my-2 text-center">
                                                     دوره آیلتس
                                                 </p>
@@ -337,8 +367,9 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card h-100" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color justify-content-center align-items-center">
                                             <img src="./assets/img/icons/آلمانی.webp" class="card-img-top"
                                                 alt="دوره آلمانی">
                                             <div class="card-body">
@@ -350,8 +381,9 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card h-100" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color justify-content-center align-items-center">
                                             <img src="./assets/img/icons/اسپانیایی.webp" class="card-img-top"
                                                 alt="دوره اسپانیایی">
                                             <div class="card-body">
@@ -365,8 +397,9 @@
 
 
                                 <div class="swiper-slide">
-                                    <div class="card h-100" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color justify-content-center align-items-center">
                                             <img src="./assets/img/icons/ترکی-استانبولی.webp" class="card-img-top"
                                                 alt="دوره ترکی استانبولی">
                                             <div class="card-body">
@@ -378,8 +411,9 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card h-100" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color justify-content-center align-items-center">
                                             <img src="./assets/img/icons/GB-3x.png" class="card-img-top"
                                                 alt="دوره انگلیسی">
                                             <div class="card-body">
@@ -391,8 +425,9 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card h-100" style="width: 15rem;">
-                                        <a href="#" class="text-decoration-none cards txt-color h-100">
+                                    <div class="card h-75" style="width: 15rem;">
+                                        <a href="#"
+                                            class="text-decoration-none cards txt-color justify-content-center align-items-center">
                                             <img src="./assets/img/icons/زبان-فرانسه.webp" class="card-img-top"
                                                 alt="دوره فرانسه">
                                             <div class="card-body">
@@ -438,7 +473,7 @@
 
 
     <!-- Cards -->
-    <div class="my-4">
+    <div class="py-4">
         <section class="container-fluid ">
             <div class="row py-5">
                 <a href="#d2" class="col-12 d-inline-block display-4 txt-color text-center text-decoration-none">
@@ -446,8 +481,9 @@
                     دوره های آموزشی ایرانمهر
                 </a>
             </div>
-            <div class="row my-3 " id="d2">
-                <div class="col-md-6 col-lg-3 col-sm-12 mx-5 px-5 mx-md-0 ps-md-3">
+            <div class="row my-3 align-items-center " id="d2">
+
+                <div class=" col-sm-12 col-md-6 col-lg-3 mx-5 px-5 mx-md-0 ps-md-3">
                     <a href="#" class="text-decoration-none txt-color cards">
                         <div class="card gap-2 rounded-1  " style="width: 18rem;">
                             <img src="./assets/img/cources/اموزش-زبان-فرانسه-خردسالان.webp"
@@ -455,7 +491,7 @@
                             <div class="card-body text-center ">
                                 <h5 class="card-title py-3">
                                     آموزش زبان فرانسه خردسالان</h5>
-                                <p class="card-text text-muted py-3 text-truncate">
+                                <p class="card-text text-muted py-3  text-truncate">
 
                                     از پایه تا پیشرفته با آخرین متد روز برای خردسالان
                                 </p>
@@ -464,7 +500,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-3 col-sm-12 mx-5 px-5 mx-md-0 ps-md-3">
+                <div class="col-sm-12  col-md-6 col-lg-3 mx-5 px-5 mx-md-0 ps-md-3">
                     <a href="#" class="text-decoration-none txt-color cards">
                         <div class="card gap-2 rounded-1" style="width: 18rem;">
                             <img src="./assets/img/online/آموزش-خصوصی-آنلاین-ترکی-استانبولی-نوجوانان-1.webp"
@@ -481,7 +517,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-3 col-sm-12 mx-5 px-5 mx-md-0 ps-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-3  mx-5 px-5 mx-md-0 ps-md-3">
                     <a href="#" class="text-decoration-none txt-color cards">
                         <div class="card gap-2 rounded-1" style="width: 18rem;">
                             <img src="./assets/img/online/آموزش-آنلاین-زبان-انگلیسی-خردسالان.webp"
@@ -498,7 +534,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-3 col-sm-12 mx-5 px-5 mx-md-0 ps-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-3  mx-5 px-5 mx-md-0 ps-md-3">
                     <a href="#" class="text-decoration-none txt-color cards">
                         <div class="card gap-2 rounded-1" style="width: 18rem;">
                             <img src="./assets/img/online/آموزش-آنلاین-زبان-آلمانی-خردسالان.webp"
@@ -519,9 +555,292 @@
         </section>
     </div>
 
-    <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum dignissimos deserunt magni
-        rerum eius accusantium id nisi saepe laudantium sunt, non aliquam optio commodi quae error magnam incidunt
-        minima.</p>
+    <!-- questions -->
+    <div class="py-4">
+        <section class="container">
+
+            <h2 class="txt-color my-5">
+                سوالات متداول
+            </h2>
+            <div class="accordion  pb-4" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+
+                        <button class="accordion-button fw-bold  txt-color" type="button" data-bs-toggle="collapse"
+                            ata-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
+                            چگونه در یک دوره آموزشی ثبت نام کنم؟
+
+                        </button>
+
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show "
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body lh-lg p-4 text-muted">
+                            برای ثبت نام در آموزشگاه زبان ایرانمهر در ابتدا باید در آزمون <strong>تعیین سطح</strong>
+                            شرکت نمایید. بعد از نتیجه به دست آمده حاصل از تعیین سطح، همکاران ما زمان دقیق شروع کلاس‌ها
+                            را به شما اطلاع می‌دهند. برای دریافت مشاوره و شرکت در آزمون تعیین سطح رایگان نیز می‌توانید
+                            فرم مشاوره رایگان را پر کنید.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed fw-bold txt-color" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
+                            من قبلاً در آموزشگاه X تا مقطع میانی رو گذرانده‌ام آیا با ارائه مدرک بازهم به تعیین سطح نیاز
+                            دارم؟
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body lh-lg p-4 text-muted">
+
+                            برای اینکه بتوانید در مؤسسه ما ثبت نام کنید باید در آزمون تعیین سطحی که توسط همکاران ما
+                            برگزار می‌شود، شرکت کنید.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed  fw-bold txt-color" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
+                            آیا آموزشگاه زبان ایرانمهر دوره‌های آموزش زبان خصوصی هم دارد؟
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body lh-lg p-4 text-muted">
+                            بله؛ آموزشگاه ما باتوجه به هدف، نیاز و زمان زبان‌آموزان، دوره‌های خصوصی مناسبی را به او
+                            ارائه می‌دهد. شما در این دوره‌ها با کمترین زمان و مناسب‌ترین هزینه و با کیفیتی بیش از پیش
+                            تحت آموزش قرار خواهید گرفت.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed  fw-bold txt-color" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
+                            من شاغل هستم آیا برنامه کلاس‌ها مناسب با زمان‌های خالی من است؟
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse "
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body lh-lg p-4 text-muted">
+                            چه شاغل باشید و چه محصل، آموزشگاه ایرانمهر برنامه‌ی زمانی متفاوتی برای کلاس‌ها و دوره‌های
+                            آموزشی درنظر گرفته است.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                            <button class="accordion-button collapsed  fw-bold txt-color" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                    fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                من در مکالمه خیلی ضعیف هستم، آیا کلاس‌های بحث آزاد (Free discussion) هم برگزار می‌شود؟
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFive">
+                            <div class="accordion-body lh-lg p-4 text-muted">
+                                بله؛ یکی از ویژگی‌های آموزشگاه زبان ایرانمهر برگزاری کلاس‌های متفاوت بحث آزاد برای
+                                زبان‌آموزانی است که به دنبال پیشرفت در مهارت مکالمه هستند.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                            <button class="accordion-button collapsed fw-bold txt-color" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-success me-3" width="16" height="16"
+                                    fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                آیا امکان استرداد شهریه وجود دارد؟
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSix">
+                            <div class="accordion-body lh-lg p-4 text-muted">
+                                درصورتی که زبان‌آموز پس از شروع دوره از شرکت در کلاس‌های آموزشگاه منصرف شود، آموزشگاه
+                                زبان ایرانمهر <strong>هیچ گونه تعهدی</strong> نسبت به مسترد نمودن شهریه پرداختی او
+                                ندارد.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+
+
+    <!-- Contact -->
+    <div class="py-5">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-12 my-4">
+                    <div class=" text-center shadow-lg  p-5 full-page rounded-5 ">
+                        <h3 class="bg-opacity-10 py-3">مشاوره رایگان</h3>
+                        <p class="bg-opacity-10 pb-5">برای تعیین وقت مشاوره رایگان کلیک کنید</p>
+                        <button class="btn p-3 to-panel">درخواست مشاوره رایگان</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-4">
+                    <div class=" text-center px-5 rounded-5 d-none d-lg-block position-relative">
+                        <img src="./assets/img/map.webp" class="rounded-2  w-100" alt="نقشه">
+                        <a class="btn to-panel  my-lg-2 mx-auto position-absolute text-decoration-none p-lg-3 col-4"
+                            style="top: 4rem; left: 13rem;">پیدا کردن در نقشه</a>
+
+                        <ul class="list-unstyled pt-4 text-start pb-2 lh-lg">
+                            <li><span class="text-muted">ساعت کاری:</span> 8 صبح الی 9 شب</li>
+                            <li><span class="text-muted">شماره تماس: </span> 02192001340</li>
+                            <li><span class="text-muted">آدرس دفتر مرکزی:</span> تهران خیابان شهید بهشتی، خیابان ادیب
+                                الممالک، پلاک 2</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="py-4">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <h2 class="text-center display-6 mt-5 mb-5 txt-color">
+                        تماس با ما
+                    </h2>
+                    <img src="./assets/img/100x100_092010iranmehrLogo.webp" class="mx-4 d-inline-block" alt="IRANMEHR">
+
+                    <p class="lead text-muted mb-5 pb-3 fs-6 text-start ms-2 px-3 mt-3">
+                        موسسه زبان ایرانمهر با سابقه‌ 20 ساله، جزء قدیمی ترین آموزشگاه های زبان ایران در زمینه آموزش
+                        زبان
+                        های روز دنیا (انگلیسی، فرانسه، آلمانی، اسپانیایی، ترکی و ...)
+                    </p>
+                    <p class="text-end">
+                        <a href="#" class="fw-bold txt-color text-decoration-none fs-2 text-end ">
+                            02192001340
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                        </a>
+                    </p>
+                    <p class="fs-6 p-3 my-5 mx-2">
+                        کلیه حقوق مادی و معنوی این وب سایت متعلق به موسسه زبان ایرانمهر است.
+                    </p>
+                </div>
+
+                <div class="col-lg-6 ">
+
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-6 mt-5 text-start txt-color lh-lg">
+                            <h5 class="mb-5">دسترسی سریع</h5>
+                            <ul class="list-unstyled text-start">
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">مرخصی و
+                                        استرداد</a></li>
+                                <li> <a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">استعلام
+                                        مدرک</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">ثبت نام
+                                        ورکشاپ</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش Big
+                                        Blue</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">Button و
+                                        Skype</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">درباره ی
+                                        ما</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mt-5 text-start txt-color lh-lg">
+                            <h5 class="mb-5">خدمات ایرانمهر</h5>
+                            <ul class="list-unstyled text-start">
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش زبان
+                                        انگلیسی</a></li>
+                                <li> <a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش زبان
+                                        آلمانی</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش زبان
+                                        فرانسه</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش زبان
+                                        ترکی</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">استانبولی</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">آموزش زبان
+                                        اسپانیایی</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-5 text-start txt-color lh-lg">
+                            <h5 class="mb-5">ایرانمهر</h5>
+                            <ul class="list-unstyled text-start">
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">دوره های
+                                        کودکان</a></li>
+                                <li> <a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">دوره های
+                                        نوجوانان</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none fs-6 txt-color d-inline-block text-start">دوره های
+                                        بزرگسالان</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
 
 
 
@@ -585,11 +904,10 @@
                     <button type="button" class=" mx-0" data-bs-dismiss="modal" aria-label="Close">
 
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue"
-                            class="bi bi-s-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-x-square-fill" viewBox="0 0 16 16">
                             <path
-                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                         </svg>
 
                     </button>
@@ -613,6 +931,8 @@
             </div>
         </div>
     </div>
+
+
 </body>
 
 </html>

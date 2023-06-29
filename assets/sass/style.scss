@@ -105,6 +105,9 @@ body {
 
 
 
+
+
+
 .dropdown:hover>.dropdown-menu,
 .dropend:hover>.dropdown-menu {
   display: block;
@@ -175,7 +178,7 @@ body {
   opacity: 80%;
   background-color: #e6ddddcc;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 15px;
 
 }
 
@@ -214,4 +217,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+// .btn-grad {
+//   background-color: #033d6d;
+
+// }
+
+.mode {
+  top: 50px;
+  left: 50px;
+}
+
+.ttop:hover {
+  background-color: #bcdaf3b7;
+
 }
