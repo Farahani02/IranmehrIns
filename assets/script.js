@@ -80,8 +80,6 @@ btn.addEventListener('click', (e) => {
 });
 
 
-
-
 logout.addEventListener('click', () => {
 
     if (JSON.parse(window.localStorage.getItem('userName')) !== null) {
@@ -97,43 +95,4 @@ logout.addEventListener('click', () => {
     }
 
 });
-
-
-
-
-
-
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     // direction: 'vertical',
-
-//     // If we need pagination
-//     pagination: {
-//         el: '.swiper-pagination',
-
-//         type: "progressbar",
-
-//     },
-//     loop: true,
-
-//     // Navigation arrows
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-//     // And if we need scrollbar
-//     scrollbar: {
-//         el: '.swiper-scrollbar',
-//     },
-
-//     slidesPerView: 2,
-//     spaceBetween: 20,
-//     // effect: "cube",
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: true,
-//     },
-//     speed: 600,
-//     parallax: true,
-// });
 
