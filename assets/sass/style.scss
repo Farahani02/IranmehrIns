@@ -1,4 +1,4 @@
-$empty-color: #efefef;
+// $empty-color: #efefef;
 $empty-height: 100px;
 // $brand-color:
 
@@ -6,6 +6,8 @@ $empty-height: 100px;
 @use "./reset.scss";
 @use "./mixins.scss";
 @use "./functions.scss";
+@import "variable.scss";
+// @import "mixins.scss"; 
 
 
 //   *, *::before, *::after {
@@ -16,8 +18,8 @@ $empty-height: 100px;
 
 
 .emptySpace {
-  // background-color: $empty-color;
-  background-color: #fff;
+  background-color: $empty-color;
+  // background-color: #fff;
   width: 100%;
   top: 0;
   height: $empty-height;
@@ -34,7 +36,7 @@ body {
 
 .navhovering:hover {
   // border:1px ;
-  border-bottom: 5px solid #007ddb;
+  border-bottom: 5px solid $bg-color;
   padding-bottom: 8px;
 }
 
@@ -53,6 +55,7 @@ body {
   background-color: #070592;
   color: #efefef;
 }
+
 
 .to-panel:hover {
   background-color: #2e91dd;
